@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Øgreid Icon Set v2 — Art Deco Minimal</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #F7F1EE; padding: 40px; color: #333; }
+  h1 { font-size: 24px; margin-bottom: 4px; }
+  .subtitle { color: #7C7C7C; margin-bottom: 32px; font-size: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; }
+  .card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); text-align: center; }
+  .card h3 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: #7C7C7C; margin-bottom: 12px; }
+  .icon-row { display: flex; gap: 6px; align-items: center; justify-content: center; margin-bottom: 4px; }
+  .icon-box { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; border-radius: 8px; padding: 6px; }
+  .icon-box img { width: 100%; height: 100%; object-fit: contain; }
+  .icon-box.light { background: #fff; border: 1px solid #eee; }
+  .icon-box.dark { background: #3E3737; }
+  .icon-box.beige { background: #F7F1EE; border: 1px solid #e0d8d5; }
+  .labels { display: flex; gap: 6px; justify-content: center; }
+  .labels span { width: 56px; text-align: center; font-size: 9px; color: #bbb; }
+</style>
+</head>
+<body>
+
+<h1>Øgreid Icon Set v2 — Art Deco Minimal</h1>
+<p class="subtitle">Scandinavian minimalism meets art-deco · Matching ogreid.no design language</p>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const icons = [
+  { slug: "handshake", name: "Handshake" },
+  { slug: "growth-chart", name: "Growth" },
+  { slug: "building", name: "Building" },
+  { slug: "briefcase", name: "Briefcase" },
+  { slug: "scale", name: "Scale" },
+  { slug: "coin-stack", name: "Coins" },
+  { slug: "piggy-bank", name: "Piggy Bank" },
+  { slug: "bar-chart", name: "Bar Chart" },
+  { slug: "pie-chart", name: "Pie Chart" },
+  { slug: "calculator", name: "Calculator" },
+  { slug: "chess-knight", name: "Strategy" },
+  { slug: "target", name: "Target" },
+  { slug: "compass", name: "Compass" },
+  { slug: "telescope", name: "Telescope" },
+  { slug: "lightbulb", name: "Lightbulb" },
+  { slug: "gear", name: "Gear" },
+  { slug: "people", name: "People" },
+  { slug: "network", name: "Network" },
+  { slug: "rocket", name: "Rocket" },
+  { slug: "shield", name: "Shield" },
+  { slug: "hourglass", name: "Hourglass" },
+  { slug: "anchor", name: "Anchor" },
+  { slug: "key", name: "Key" },
+  { slug: "seedling", name: "Seedling" },
+  { slug: "house", name: "Houses" },
+];
+
+const grid = document.getElementById("grid");
+
+for (const { slug, name } of icons) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <h3>${name}</h3>
+    <div class="icon-row">
+      <div class="icon-box light"><img src="bw/${slug}.png"></div>
+      <div class="icon-box dark"><img src="bw/${slug}.png" style="filter:invert(1)"></div>
+      <div class="icon-box beige"><img src="red/${slug}.png"></div>
+      <div class="icon-box beige"><img src="green/${slug}.png"></div>
+    </div>
+    <div class="labels"><span>B&W</span><span>White</span><span>Red</span><span>Green</span></div>
+  `;
+  grid.appendChild(card);
+}
+</script>
+
+</body>
+</html>
