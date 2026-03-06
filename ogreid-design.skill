@@ -8,40 +8,48 @@ description: "Øgreid AS visual design manual. Apply these brand guidelines when
 > **Read this file BEFORE creating any branded content for Øgreid AS.**
 > This is the single source of truth for Øgreid's visual identity.
 
+## Colors
+
+The canonical color definitions are maintained in **`brand-colors.json`** in the GitHub repository.
+Fetch the latest version: `https://raw.githubusercontent.com/ornhalvorsen/odf/main/brand-colors.json`
+
 ## Asset Quick Reference
 
-**Dropbox folder (all team members):** [Øgreid Visual Elements on Dropbox](https://www.dropbox.com/scl/fo/7u76999erz55nwvuz3yt1/AAc1c7KE26oEcxhdzpQGs1w?rlkey=46i4x5heqfape6hfsh0bey97j&dl=0)
+**GitHub repository:** [ornhalvorsen/odf](https://github.com/ornhalvorsen/odf)
+**Raw file base URL:** `https://raw.githubusercontent.com/ornhalvorsen/odf/main/`
 
-All assets live in `Øgreid Visual Elements/assets/` with clean, simple names. Use these paths directly — no encoding issues, no deep nesting.
+To download any asset, append its path to the base URL. For example:
+`https://raw.githubusercontent.com/ornhalvorsen/odf/main/logos/symbol.png`
+
+All assets live in this repository at the root level. Use these paths directly.
 
 ```
-assets/
-├── logos/
-│   ├── symbol.png              ← Red 3-house icon (digital)
-│   ├── symbol.jpg
-│   ├── wordmark-black.png      ← "ØGREID" text (light backgrounds)
-│   ├── wordmark-black.jpg
-│   ├── wordmark-white.png      ← "ØGREID" text (dark backgrounds)
-│   └── logo-with-clearspace.png
-├── illustrations/               ← Transparent backgrounds (preferred)
-│   ├── hero.png                ← Main visual / opening
-│   ├── people.png              ← Team / culture
-│   ├── history.png             ← Heritage / timeline
-│   ├── humor-1.png             ← Light-hearted 1
-│   ├── humor-2.png             ← Light-hearted 2
-│   ├── collaboration.png       ← Partnerships / intro
-│   ├── network.png             ← Connections / ecosystem
-│   ├── sparring.png            ← Advisory / mentoring
-│   └── growth-capital.png      ← Investment / growth
-├── illustrations-bg/            ← Same set, WITH background fill
-│   └── (same filenames)
-├── banners/
-│   ├── banner-1.png
-│   ├── banner-2.png
-│   ├── linkedin-1-hd.png
-│   └── linkedin-2-hd.png
-└── anniversary/
-    └── 150-years.jpg            ← 2026 anniversary illustration
+logos/
+├── symbol.png              ← Red 3-house icon (digital)
+├── symbol.jpg
+├── wordmark-black.png      ← "ØGREID" text (light backgrounds)
+├── wordmark-black.jpg
+├── wordmark-white.png      ← "ØGREID" text (dark backgrounds)
+└── logo-with-clearspace.png
+illustrations/               ← Transparent backgrounds (preferred)
+├── hero.png                ← Main visual / opening
+├── people.png              ← Team / culture
+├── history.png             ← Heritage / timeline
+├── humor-1.png             ← Light-hearted 1
+├── humor-2.png             ← Light-hearted 2
+├── collaboration.png       ← Partnerships / intro
+├── network.png             ← Connections / ecosystem
+├── sparring.png            ← Advisory / mentoring
+└── growth-capital.png      ← Investment / growth
+illustrations-bg/            ← Same set, WITH background fill
+└── (same filenames)
+banners/
+├── banner-1.png
+├── banner-2.png
+├── linkedin-1-hd.png
+└── linkedin-2-hd.png
+anniversary/
+└── 150-years.jpg            ← 2026 anniversary illustration
 ```
 
 ---
@@ -58,6 +66,9 @@ assets/
 ---
 
 ## 2. Color Palette
+
+> **Source of truth:** `brand-colors.json` in the repository. The tables below are a human-readable summary.
+> If values differ, `brand-colors.json` wins.
 
 ### Primary Colors
 
@@ -147,15 +158,13 @@ The Øgreid logo has two parts:
 
 ### Logo Assets
 
-All assets are in `Øgreid Visual Elements/assets/` with clean, simple filenames:
-
 | Asset | Path | Use for |
 |-------|------|---------|
-| Symbol (PNG) | `assets/logos/symbol.png` | Digital — icon, favicons, small placements |
-| Symbol (JPG) | `assets/logos/symbol.jpg` | Digital — when PNG not supported |
-| Wordmark Black | `assets/logos/wordmark-black.png` | Light/beige backgrounds |
-| Wordmark White | `assets/logos/wordmark-white.png` | Dark backgrounds |
-| Logo + clearspace | `assets/logos/logo-with-clearspace.png` | Reference for minimum padding |
+| Symbol (PNG) | `logos/symbol.png` | Digital — icon, favicons, small placements |
+| Symbol (JPG) | `logos/symbol.jpg` | Digital — when PNG not supported |
+| Wordmark Black | `logos/wordmark-black.png` | Light/beige backgrounds |
+| Wordmark White | `logos/wordmark-white.png` | Dark backgrounds |
+| Logo + clearspace | `logos/logo-with-clearspace.png` | Reference for minimum padding |
 
 ### Logo Usage Rules
 - Always maintain clear space around the logo (see `logo-with-clearspace.png`).
@@ -177,8 +186,8 @@ All assets are in `Øgreid Visual Elements/assets/` with clean, simple filenames
 ### Illustration Assets
 
 Two versions of each illustration exist:
-- **`assets/illustrations/`** — Transparent background (preferred for overlays and flexible layouts)
-- **`assets/illustrations-bg/`** — With background fill (ready-to-use, no compositing needed)
+- **`illustrations/`** — Transparent background (preferred for overlays and flexible layouts)
+- **`illustrations-bg/`** — With background fill (ready-to-use, no compositing needed)
 
 | Friendly Name | Filename | Use for |
 |--------------|----------|---------|
@@ -192,7 +201,7 @@ Two versions of each illustration exist:
 | **Sparring** | `sparring.png` | Advisory, mentoring, sparring partner content |
 | **Growth & Capital** | `growth-capital.png` | Investment, growth catalysis, funding |
 
-**Example usage:** To add the hero illustration to a slide, use `assets/illustrations/hero.png`.
+**Example usage:** To add the hero illustration to a slide, use `illustrations/hero.png`.
 
 ---
 
@@ -200,10 +209,10 @@ Two versions of each illustration exist:
 
 | Asset | Path | Notes |
 |-------|------|-------|
-| Banner 1 | `assets/banners/banner-1.png` | Standard |
-| Banner 2 | `assets/banners/banner-2.png` | Alternative |
-| LinkedIn 1 HD | `assets/banners/linkedin-1-hd.png` | High-res for LinkedIn |
-| LinkedIn 2 HD | `assets/banners/linkedin-2-hd.png` | High-res for LinkedIn |
+| Banner 1 | `banners/banner-1.png` | Standard |
+| Banner 2 | `banners/banner-2.png` | Alternative |
+| LinkedIn 1 HD | `banners/linkedin-1-hd.png` | High-res for LinkedIn |
+| LinkedIn 2 HD | `banners/linkedin-2-hd.png` | High-res for LinkedIn |
 
 ---
 
@@ -213,7 +222,7 @@ Two versions of each illustration exist:
 
 | Asset | Path | Notes |
 |-------|------|-------|
-| Anniversary illustration | `assets/anniversary/150-years.jpg` | Celebration scene by Åge Peterson |
+| Anniversary illustration | `anniversary/150-years.jpg` | Celebration scene by Åge Peterson |
 
 When creating content for 2026, consider incorporating the 150th anniversary theme where appropriate.
 

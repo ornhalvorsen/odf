@@ -1,0 +1,99 @@
+{
+  "primary": {
+    "ogreid-red": {
+      "hex": "#BE4642",
+      "rgb": [190, 70, 66],
+      "usage": "Logo symbol, accent elements, highlights, CTAs"
+    },
+    "warm-beige": {
+      "hex": "#F7F1EE",
+      "rgb": [247, 241, 238],
+      "usage": "Primary background, page fill"
+    },
+    "dark-charcoal": {
+      "hex": "#3E3737",
+      "rgb": [62, 55, 55],
+      "usage": "Footer backgrounds, dark sections, contrast areas"
+    },
+    "soft-teal": {
+      "hex": "#D5EBEA",
+      "rgb": [213, 235, 234],
+      "usage": "CTA section backgrounds, feature highlights"
+    }
+  },
+  "text": {
+    "primary-text": {
+      "hex": "#333333",
+      "rgb": [51, 51, 51],
+      "usage": "All body text, headings (NOT pure black)"
+    },
+    "secondary-text": {
+      "hex": "#7C7C7C",
+      "rgb": [124, 124, 124],
+      "usage": "Captions, secondary info, metadata"
+    },
+    "white-text": {
+      "hex": "#FFFFFF",
+      "rgb": [255, 255, 255],
+      "usage": "Text on dark backgrounds (charcoal, footer)"
+    }
+  },
+  "extended": {
+    "dusty-rose": {
+      "hex": "#F0B0B0",
+      "rgb": [240, 176, 176],
+      "usage": "Soft pink accents, warm highlights"
+    },
+    "blush-pink": {
+      "hex": "#D09090",
+      "rgb": [208, 144, 144],
+      "usage": "Muted pink, secondary accent"
+    },
+    "dark-terracotta": {
+      "hex": "#905050",
+      "rgb": [144, 80, 80],
+      "usage": "Deeper red-brown, building facades"
+    },
+    "steel-blue": {
+      "hex": "#7090B0",
+      "rgb": [112, 144, 176],
+      "usage": "Cool blue-grey, clothing, shadows"
+    },
+    "forest-green": {
+      "hex": "#509070",
+      "rgb": [80, 144, 112],
+      "usage": "Deep teal-green, nature, clothing"
+    },
+    "muted-teal": {
+      "hex": "#B0D0D0",
+      "rgb": [176, 208, 208],
+      "usage": "Mid-tone teal, fills and backgrounds"
+    },
+    "sage-green": {
+      "hex": "#D0F0D0",
+      "rgb": [208, 240, 208],
+      "usage": "Pale green, light backgrounds"
+    },
+    "warm-cream": {
+      "hex": "#F0F0D0",
+      "rgb": [240, 240, 208],
+      "usage": "Lightest warm tone, highlights"
+    }
+  },
+  "presentation": {
+    "content-box-fill": {
+      "hex": "#E8E2DF",
+      "usage": "Case study content box background"
+    },
+    "light-divider": {
+      "hex": "#CCCCCC",
+      "usage": "Thin divider lines between sections"
+    }
+  },
+  "rules": {
+    "never-use-pure-black": "Use #333333 instead of #000000 for text",
+    "default-background": "Warm beige #F7F1EE, not white",
+    "red-is-accent-only": "Never use #BE4642 for large background fills",
+    "teal-sparingly": "Use #D5EBEA only for emphasis sections"
+  }
+}
