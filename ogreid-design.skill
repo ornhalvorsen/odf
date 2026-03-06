@@ -1,0 +1,322 @@
+---
+name: ogreid-design
+description: "Øgreid AS visual design manual. Apply these brand guidelines whenever creating presentations, documents, web pages, emails, or any visual content for Øgreid. MANDATORY TRIGGERS: Øgreid, ogreid, branded, brand, design manual, company template, Øgreid presentation, Øgreid document"
+---
+
+# Øgreid AS — Visual Design Manual
+
+> **Read this file BEFORE creating any branded content for Øgreid AS.**
+> This is the single source of truth for Øgreid's visual identity.
+
+## Asset Quick Reference
+
+**Dropbox folder (all team members):** [Øgreid Visual Elements on Dropbox](https://www.dropbox.com/scl/fo/7u76999erz55nwvuz3yt1/AAc1c7KE26oEcxhdzpQGs1w?rlkey=46i4x5heqfape6hfsh0bey97j&dl=0)
+
+All assets live in `Øgreid Visual Elements/assets/` with clean, simple names. Use these paths directly — no encoding issues, no deep nesting.
+
+```
+assets/
+├── logos/
+│   ├── symbol.png              ← Red 3-house icon (digital)
+│   ├── symbol.jpg
+│   ├── wordmark-black.png      ← "ØGREID" text (light backgrounds)
+│   ├── wordmark-black.jpg
+│   ├── wordmark-white.png      ← "ØGREID" text (dark backgrounds)
+│   └── logo-with-clearspace.png
+├── illustrations/               ← Transparent backgrounds (preferred)
+│   ├── hero.png                ← Main visual / opening
+│   ├── people.png              ← Team / culture
+│   ├── history.png             ← Heritage / timeline
+│   ├── humor-1.png             ← Light-hearted 1
+│   ├── humor-2.png             ← Light-hearted 2
+│   ├── collaboration.png       ← Partnerships / intro
+│   ├── network.png             ← Connections / ecosystem
+│   ├── sparring.png            ← Advisory / mentoring
+│   └── growth-capital.png      ← Investment / growth
+├── illustrations-bg/            ← Same set, WITH background fill
+│   └── (same filenames)
+├── banners/
+│   ├── banner-1.png
+│   ├── banner-2.png
+│   ├── linkedin-1-hd.png
+│   └── linkedin-2-hd.png
+└── anniversary/
+    └── 150-years.jpg            ← 2026 anniversary illustration
+```
+
+---
+
+## 1. Brand Overview
+
+Øgreid AS is an active investor and company developer based in Stavanger, Norway, with roots going back to 1876. In 2026, Øgreid celebrates its **150th anniversary**. The brand tone is confident, warm, approachable, and long-term oriented. The visual identity balances heritage with modern, clean design.
+
+**Address:** Løkkeveien 59, 4008 Stavanger
+**Website:** ogreid.no
+**Design by:** Studio Oker
+**Illustrations by:** Åge Peterson
+
+---
+
+## 2. Color Palette
+
+### Primary Colors
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| **Øgreid Red** | `#BE4642` | `rgb(190, 70, 66)` | Logo symbol, accent elements, highlights, CTAs |
+| **Warm Beige** | `#F7F1EE` | `rgb(247, 241, 238)` | Primary background, page fill |
+| **Dark Charcoal** | `#3E3737` | `rgb(62, 55, 55)` | Footer backgrounds, dark sections, contrast areas |
+| **Soft Teal** | `#D5EBEA` | `rgb(213, 235, 234)` | CTA section backgrounds, feature highlights |
+
+### Text Colors
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| **Primary Text** | `#333333` | `rgb(51, 51, 51)` | All body text, headings (NOT pure black) |
+| **Secondary Text** | `#7C7C7C` | `rgb(124, 124, 124)` | Captions, secondary info, metadata |
+| **White Text** | `#FFFFFF` | `rgb(255, 255, 255)` | Text on dark backgrounds (charcoal, footer) |
+
+### Extended Palette (from Åge Peterson illustrations)
+
+These colors appear across the brand illustrations (Hero, 150th anniversary, etc.) and can be used as supporting accents in branded content — especially for charts, infographics, diagrams, and decorative elements.
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| **Dusty Rose** | `#F0B0B0` | `rgb(240, 176, 176)` | Soft pink accents, warm highlights |
+| **Blush Pink** | `#D09090` | `rgb(208, 144, 144)` | Muted pink, secondary accent |
+| **Dark Terracotta** | `#905050` | `rgb(144, 80, 80)` | Deeper red-brown, building facades |
+| **Steel Blue** | `#7090B0` | `rgb(112, 144, 176)` | Cool blue-grey, clothing, shadows |
+| **Forest Green** | `#509070` | `rgb(80, 144, 112)` | Deep teal-green, nature, clothing |
+| **Muted Teal** | `#B0D0D0` | `rgb(176, 208, 208)` | Mid-tone teal, fills and backgrounds |
+| **Sage Green** | `#D0F0D0` | `rgb(208, 240, 208)` | Pale green, light backgrounds |
+| **Warm Cream** | `#F0F0D0` | `rgb(240, 240, 208)` | Lightest warm tone, highlights |
+
+### Usage Rules
+- **NEVER use pure black (#000000)** for text. Always use #333333.
+- The warm beige (#F7F1EE) is the default background — not white.
+- Use the soft teal (#D5EBEA) sparingly for emphasis sections.
+- The red (#BE4642) is for accents only — never for large background fills.
+
+---
+
+## 3. Typography
+
+### Font Families
+
+| Role | Font | Fallback | Weight |
+|------|------|----------|--------|
+| **Headings** | Ferrogrotesk | sans-serif | 400 (Regular) |
+| **Body text** | Plus Jakarta Sans | sans-serif | 400 (Regular) |
+| **Navigation/Labels** | Plus Jakarta Sans | sans-serif | 400, uppercase, letter-spacing: 0.8px |
+
+### Heading Hierarchy
+
+| Level | Size | Line Height | Letter Spacing | Transform |
+|-------|------|-------------|----------------|-----------|
+| H1 | 68px | 80px | -0.64px | UPPERCASE |
+| H2 | 50px | 60px | -0.48px | UPPERCASE |
+| H3 (label) | 16px | 19.2px | 0.8px | UPPERCASE |
+| Body | 18px | 28px | normal | none |
+| Small/Caption | 14px | normal | 0.8px | UPPERCASE |
+
+### Typography Rules
+- Headings are ALWAYS uppercase with Ferrogrotesk.
+- Body text uses Plus Jakarta Sans at 18px with generous line-height.
+- Navigation and labels use uppercase with 0.8px letter-spacing.
+- **If Ferrogrotesk is unavailable**, use a geometric sans-serif (e.g., Montserrat, Inter, or Poppins) as a substitute.
+- **If Plus Jakarta Sans is unavailable**, use Inter, Source Sans Pro, or a clean humanist sans-serif.
+
+### For Presentations (PowerPoint/Google Slides)
+Since custom fonts may not be available, use these substitutions:
+
+| Role | Preferred | Substitute 1 | Substitute 2 |
+|------|-----------|--------------|--------------|
+| Headings | Ferrogrotesk | Montserrat (Regular) | Arial (Bold) |
+| Body | Plus Jakarta Sans | Inter | Calibri |
+
+---
+
+## 4. Logo
+
+### Logo Components
+
+The Øgreid logo has two parts:
+
+1. **Symbol**: Three red house/building shapes (#BE4642) arranged side by side. These represent the company's heritage in building and developing businesses.
+2. **Wordmark**: "ØGREID" in a bold geometric sans-serif typeface (custom). Available in black and white versions.
+
+### Logo Assets
+
+All assets are in `Øgreid Visual Elements/assets/` with clean, simple filenames:
+
+| Asset | Path | Use for |
+|-------|------|---------|
+| Symbol (PNG) | `assets/logos/symbol.png` | Digital — icon, favicons, small placements |
+| Symbol (JPG) | `assets/logos/symbol.jpg` | Digital — when PNG not supported |
+| Wordmark Black | `assets/logos/wordmark-black.png` | Light/beige backgrounds |
+| Wordmark White | `assets/logos/wordmark-white.png` | Dark backgrounds |
+| Logo + clearspace | `assets/logos/logo-with-clearspace.png` | Reference for minimum padding |
+
+### Logo Usage Rules
+- Always maintain clear space around the logo (see `logo-with-clearspace.png`).
+- On light/beige backgrounds: use the red symbol + black wordmark.
+- On dark backgrounds: use the red symbol + white wordmark.
+- Never stretch, rotate, or recolor the logo.
+- Minimum size: symbol should be at least 20px tall in digital contexts.
+
+---
+
+## 5. Illustrations
+
+Øgreid uses a distinctive illustration style by **Åge Peterson**, characterized by:
+- Flat, stylized characters with elongated proportions
+- Limited color palette matching the brand colors (red, teal, pink, black, beige)
+- Whimsical, storytelling compositions (people working, building, collaborating)
+- Mix of detailed scenes and simpler vignettes
+
+### Illustration Assets
+
+Two versions of each illustration exist:
+- **`assets/illustrations/`** — Transparent background (preferred for overlays and flexible layouts)
+- **`assets/illustrations-bg/`** — With background fill (ready-to-use, no compositing needed)
+
+| Friendly Name | Filename | Use for |
+|--------------|----------|---------|
+| **Hero** | `hero.png` | Opening slides, hero banners, main visuals |
+| **People** | `people.png` | Team pages, "about our people" content |
+| **History** | `history.png` | Company history, timeline, heritage content |
+| **Humor 1** | `humor-1.png` | Light-hearted moments, culture content |
+| **Humor 2** | `humor-2.png` | Alternative humor scene |
+| **Collaboration** | `collaboration.png` | "Why work with Øgreid", intro sections |
+| **Network** | `network.png` | Connections, partnerships, ecosystem |
+| **Sparring** | `sparring.png` | Advisory, mentoring, sparring partner content |
+| **Growth & Capital** | `growth-capital.png` | Investment, growth catalysis, funding |
+
+**Example usage:** To add the hero illustration to a slide, use `assets/illustrations/hero.png`.
+
+---
+
+## 6. LinkedIn Banners
+
+| Asset | Path | Notes |
+|-------|------|-------|
+| Banner 1 | `assets/banners/banner-1.png` | Standard |
+| Banner 2 | `assets/banners/banner-2.png` | Alternative |
+| LinkedIn 1 HD | `assets/banners/linkedin-1-hd.png` | High-res for LinkedIn |
+| LinkedIn 2 HD | `assets/banners/linkedin-2-hd.png` | High-res for LinkedIn |
+
+---
+
+## 7. 150th Anniversary (2026)
+
+Øgreid celebrates 150 years in 2026. Special assets:
+
+| Asset | Path | Notes |
+|-------|------|-------|
+| Anniversary illustration | `assets/anniversary/150-years.jpg` | Celebration scene by Åge Peterson |
+
+When creating content for 2026, consider incorporating the 150th anniversary theme where appropriate.
+
+---
+
+## 8. Layout & Spacing Principles
+
+### General Layout Rules
+- **Generous whitespace** — the design breathes. Don't crowd elements.
+- **Center-aligned text** for hero sections and CTAs.
+- **Left-aligned text** for body content and detailed sections.
+- **Thin horizontal lines** (1px, #333333 at low opacity) as section dividers.
+- **No heavy borders or drop shadows** — keep it clean and flat.
+
+### Page/Slide Structure
+- Warm beige (#F7F1EE) as the default background.
+- Dark charcoal (#3E3737) for contrast/footer sections.
+- Soft teal (#D5EBEA) for CTA/highlight sections (use sparingly).
+- Illustration on one side, text on the other — asymmetric layouts.
+
+### Button/CTA Style
+- Text-based with underline, not filled buttons.
+- Uppercase, letter-spacing 0.8px.
+- Style: `KONTAKT OSS` with a thin line above.
+
+---
+
+## 9. Application-Specific Guidelines
+
+### PowerPoint / Presentations
+1. Use warm beige (#F7F1EE) as slide background (not white).
+2. Place the red symbol in the top-center or top-right of slides.
+3. Use Montserrat (Regular) for headings if Ferrogrotesk unavailable.
+4. Headlines: uppercase, large (40-68pt), tight letter-spacing.
+5. Include an illustration from the package on key slides.
+6. Final slide: use the teal background (#D5EBEA) for the closing CTA.
+
+### Documents (Word, PDF, Markdown)
+1. Use warm beige (#F7F1EE) for page background or keep white with beige accents.
+2. Place the Øgreid wordmark + symbol in the header or title page.
+3. Use #333333 for all text — never pure black.
+4. Section dividers: thin horizontal rules.
+5. Headers: uppercase, Ferrogrotesk or Montserrat substitute.
+
+### Web / HTML Artifacts
+1. Background: `background-color: #F7F1EE;`
+2. Text: `color: #333333;`
+3. Font stack: `font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;`
+4. Heading font: `font-family: 'Ferrogrotesk', 'Montserrat', sans-serif; text-transform: uppercase;`
+5. Accent/links: `color: #BE4642;`
+6. CTA sections: `background-color: #D5EBEA;`
+7. Footer: `background-color: #3E3737; color: #FFFFFF;`
+
+### Email Templates
+1. Use a simple, clean layout — single column preferred.
+2. Background: white or warm beige.
+3. Header: Øgreid symbol (red, small) + wordmark.
+4. Body text: Plus Jakarta Sans or fallback system sans-serif at 16px.
+5. Accent color for links: #BE4642.
+6. Footer: dark charcoal background (#3E3737) with white text.
+7. Keep it minimal — Øgreid's brand is understated and elegant.
+
+### Email Signature
+```
+[Name]
+[Title] | Øgreid AS
+[Phone]
+[email]
+ogreid.no
+Løkkeveien 59, 4008 Stavanger
+```
+
+---
+
+## 10. Do's and Don'ts
+
+### Do
+- Use generous whitespace and breathing room.
+- Keep text in #333333, never pure black.
+- Use warm beige backgrounds as default.
+- Apply uppercase for headings and labels with letter-spacing.
+- Include brand illustrations where they add value.
+- Maintain the warm, confident, approachable tone.
+
+### Don't
+- Use pure black (#000000) for text.
+- Use pure white (#FFFFFF) as the primary background — use warm beige.
+- Overuse the red — it's an accent, not a primary fill.
+- Add drop shadows, gradients, or heavy visual effects.
+- Use rounded, bubbly fonts — stick to geometric sans-serifs.
+- Crowd the layout — space is part of the design.
+
+---
+
+## Quick Reference Card
+
+```
+BACKGROUND:  #F7F1EE (warm beige)
+TEXT:         #333333 (dark grey, NOT black)
+ACCENT:      #BE4642 (Øgreid red)
+HIGHLIGHT:   #D5EBEA (soft teal)
+DARK:        #3E3737 (charcoal)
+HEADING:     Ferrogrotesk → Montserrat → Arial
+BODY:        Plus Jakarta Sans → Inter → Calibri
+STYLE:       Uppercase headings, generous spacing, clean & flat
+```
