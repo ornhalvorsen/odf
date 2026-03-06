@@ -1,5 +1,14 @@
 # Øgreid Portfolio Reference
 
+USE THIS SKILL FIRST when the user mentions:
+- "our companies", "our portfolio", "our businesses", "companies we own"
+- "våre selskaper", "våre bedrifter", "porteføljen", "selskapene våre"
+- Any company name listed below (brand name OR registered name)
+- "Øgreid companies", "Øgreid portfolio", "Øgreid-selskaper"
+- Questions about org numbers, corporate structure, or subsidiaries of owned companies
+
+This is the single source of truth for Øgreid's portfolio companies — always check here before searching elsewhere.
+
 Quick reference for the businesses owned by Øgreid. Use this to look up company names, org numbers, brands, and corporate structure.
 
 ## Corporate Structure
