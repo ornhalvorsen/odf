@@ -1,1 +1,11 @@
 .env
+
+# Scratch / work-in-progress files (see CLAUDE.md — "Working docs")
+workingdocs/
+
+# macOS
+.DS_Store
+
+# Local tool state (not shared)
+.mcp.json
+.playwright-mcp/

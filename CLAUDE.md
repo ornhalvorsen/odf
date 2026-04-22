@@ -29,6 +29,12 @@ This project develops design skills for use with Claude, focusing on evolving Po
 - Always use `zipfile.ZIP_DEFLATED` compression
 - Workflow: extract zip → edit SKILL.md → repack zip (never edit the .skill file directly as text)
 
+## Working docs
+- **ALL scratch, preview, and work-in-progress files go in `workingdocs/`** — never the project root.
+- Examples: letter previews (`letter-*.html`, `letter-*.pdf`), test renders, draft screenshots, experiments.
+- `workingdocs/` is gitignored. The project root stays clean and committable.
+- When generating a file for the user to review (HTML previews, PDFs, mockups), create it under `workingdocs/<descriptive-name>.ext`.
+
 ## Development Notes
 - Google Gemini API key is stored in `.env` (never commit secrets)
 - Test templates with real content before finalizing
